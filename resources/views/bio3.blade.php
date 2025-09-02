@@ -1,67 +1,47 @@
 <x-layout>
   <x-slot name="title">My Biography | College Student</x-slot>
-<div class="container">
-    <div class="header">
-      <img src="Photo1.jpeg" alt="photo1">
-      <div>
-        <h1>Marjorie Mupas Morgate</h1>
-        <p>Email: jhingmupas@gmail.com<br>
-           Phone: 09386219379<br>
-           Location: Mindoro, Bangar La Union</p>
-      </div>
-    </div>
 
-    <div class="section">
-      <h2>About Me</h2>
-      <p>Hello everyone I'm Marjorie Mupas Morgate, 20 years old, From Mindoro Bangar La Union.I am an online seller with an interest in information technology. I enjoy selling online and managing products.and i believe life is a journey, not a race</p>
-    </div>
+  <!-- Header -->
+  <header style="background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%); color: white; text-align: center; padding: 30px 20px;">
+    <h1 style="font-size: 2.5em; margin-bottom: 10px;">Marjorie Mupas Morgate</h1>
+    <p style="font-size: 1.2em;">College Student</p>
+  </header>
 
-    <div class="section">
-      <h2>Skills</h2>
-      <ul>
-        <li>Data Entry and Encoding</li>
-        <li>Online Selling</li>
-      </ul>
+  <!-- Intro -->
+  <section style="max-width: 900px; margin: 40px auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); display: flex; flex-wrap: wrap; align-items: center; gap: 30px;">
+    <img src="Photo1.jpeg" alt="Marjorie Mupas Morgate" style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 4px solid #6a11cb; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+    <div style="flex: 1;">
+      <h2 style="color: #6a11cb; margin-bottom: 15px;">About Me</h2>
+      <p>Hello everyone I'm <strong>Marjorie Mupas Morgate</strong>, 20 years old, from Mindoro Bangar La Union.  
+      I am an online seller with an interest in information technology. I enjoy selling online and managing products. I believe life is a journey, not a race.</p>
+      <p style="margin-top: 15px;">
+        <strong>Email:</strong> <a href="mailto:jhingmupas@gmail.com" style="color: #2575fc; text-decoration: none;">jhingmupas@gmail.com</a><br>
+        <strong>Phone:</strong> 09386219379<br>
+        <strong>Location:</strong> Mindoro, Bangar La Union
+      </p>
     </div>
+  </section>
 
-    <div class="section">
-      <h2>Hobbies</h2>
-      <ul>
-        <li>Social Media Marketing</li>
-        <li>Listening to Music</li>
-      </ul>
-    </div>
-  </div>
+  <!-- Skills -->
+  <section style="max-width: 900px; margin: 20px auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);">
+    <h2 style="color: #6a11cb; margin-bottom: 15px;">Skills</h2>
+    <ul style="list-style: square inside; padding-left: 10px; color:#333; line-height:1.6;">
+      <li>Data Entry and Encoding</li>
+      <li>Online Selling</li>
+    </ul>
+  </section>
 
-    <div class="header">
-      <img src="Photo1.jpeg" alt="photo1">
-      <div>
-        <h1>Marjorie Mupas Morgate</h1>
-        <p>Email: jhingmupas@gmail.com<br>
-           Phone: 09386219379<br>
-           Location: Mindoro, Bangar La Union</p>
-      </div>
-    </div>
+  <!-- Hobbies -->
+  <section style="max-width: 900px; margin: 20px auto 40px; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);">
+    <h2 style="color: #6a11cb; margin-bottom: 15px;">Hobbies</h2>
+    <ul style="list-style: square inside; padding-left: 10px; color:#333; line-height:1.6;">
+      <li>Social Media Marketing</li>
+      <li>Listening to Music</li>
+    </ul>
+  </section>
 
-    <div class="section">
-      <h2>About Me</h2>
-      <p>Hello everyone I'm Marjorie Mupas Morgate, 20 years old, From Mindoro Bangar La Union.I am an online seller with an interest in information technology. I enjoy selling online and managing products.and i believe life is a journey, not a race</p>
-    </div>
-
-    <div class="section">
-      <h2>Skills</h2>
-      <ul>
-        <li>Data Entry and Encoding</li>
-        <li>Online Selling</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Hobbies</h2>
-      <ul>
-        <li>Social Media Marketing</li>
-        <li>Listening to Music</li>
-      </ul>
-    </div>
-  </div>
+  <!-- Footer -->
+  <footer style="background: #6a11cb; color: white; text-align: center; padding: 15px;">
+    <p style="margin: 0;">&copy; 2025 Marjorie Mupas Morgate. All rights reserved.</p>
+  </footer>
 </x-layout>
