@@ -1,4 +1,6 @@
 <x-layout>
+   <x-slot name="title">My Biography | College Student</x-slot>
+
   <header style="background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%); color: white; text-align: center; padding: 30px 20px;">
     <h1 style="font-size: 2.5em; margin-bottom: 10px;">Mary Rose Niro</h1>
     <p style="font-size: 1.2em;">BSIT Student</p>
