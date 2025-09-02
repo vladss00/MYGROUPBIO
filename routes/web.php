@@ -18,3 +18,7 @@ Route::get('/bio2', function () {
     return view('bio2');
 });
 
+Route::get('/bio3', function () {
+    return view('bio3');
+});
+
