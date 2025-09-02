@@ -13,4 +13,7 @@ Route::get('/biography', function () {
 Route::get('/bio1', function () {
     return view('bio1');
 });
+Route::get('/bio2', function () {
+    return view('bio2');
+});
 
